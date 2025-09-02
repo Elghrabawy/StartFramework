@@ -1,0 +1,71 @@
+* {
+  --main-color: #1abc9c;
+  --second-color: #2c3e50;
+  --third-color: #1a252f;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+
+  
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87) !important;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.bg-first {
+  background-color: var(--main-color) !important;
+}
+
+.bg-second {
+  background-color: var(--second-color) !important;
+}
+
+.bg-third {
+  background-color: var(--third-color) !important;
+}
+
+.skip-nav {
+  padding-top: 100px;
+}
+
+body {
+  /* padding-top: 97px; */
+}
+
+.transition {
+  transition: all 0.5s ease;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.nav-link {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.87) !important;
+  margin-right: 15px;
+  border-radius: 10px;
+  /* text-transform: uppercase; */
+}
+
+.active {
+  border-radius: 10px;
+  background-color: var(--main-color);
+}
+
+/* Footer */

@@ -10,7 +10,7 @@
   
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87) !important;
+  color: rgba(255, 255, 255, 0.87);
 
 
   font-synthesis: none;
@@ -43,15 +43,15 @@ body {
 .transition {
   transition: all 0.5s ease;
 }
-
+/* 
 .container {
   max-width: 1140px;
-}
+} */
 
 /* Navbar */
 
 .navbar-brand {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 26px;
 }
 
@@ -69,3 +69,20 @@ body {
 }
 
 /* Footer */
+.social-icons a:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, 0) !important;
+  transition: all 0.3s ease;
+}
+.social-icons a:hover i {
+  color: var(--second-color) !important;
+}
+
+/* Portfolio Item */
+.portfolio-item .overlay {
+  opacity: 0;
+  cursor: pointer;
+}
+.portfolio-item .overlay:hover {
+  opacity: 0.9;
+}

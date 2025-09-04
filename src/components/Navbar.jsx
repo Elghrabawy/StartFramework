@@ -15,7 +15,7 @@ export default function Navbar() {
     <>
       <nav className={`bg-second navbar navbar-expand-lg fixed-top transition ${onTop ? "py-4" : "py-2"}`}>
         <div className="container">
-          <Link className="navbar-brand text-uppercase" to="">
+          <Link className="navbar-brand text-uppercase link-light" to="">
             Start Framework
           </Link>
           <button
@@ -31,11 +31,7 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <NavLink className="nav-link text-uppercase fs-6" aria-current="page" to="">
-                  Home
-                </NavLink>
-              </li>
+              
               <li className="nav-item">
                 <NavLink className="nav-link text-uppercase fs-6" aria-current="page" to="about">
                   About

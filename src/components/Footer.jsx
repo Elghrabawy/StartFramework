@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
         </div>
         <div className="copyright text-center py-4 bg-third">
-            Copyright &copy; Start Framework Website 2026 | Design By <a href='https://github.com/Elghrabawy'>Borhom</a>
+            Copyright &copy; Start Framework Website 2026 | Design By <a style={{color: "white", textDecoration: "none"}} href='https://github.com/Elghrabawy'>Borhom</a>
         </div>
     </div>
 }

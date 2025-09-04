@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import './App.css'
-import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { BrowserRouter, createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import Layout from './layouts/Layout'
 import NotFound from './pages/NotFound'
 import Home from './Pages/Home'
@@ -13,6 +12,7 @@ function App() {
     {path: "", element: <Layout/>, children: [
       {path: "*", element: <NotFound/>},
       {path: "", element: <Home />},
+      {path: "home", element: <Navigate to="/" replace/>},
       {path: "about", element: <About/>},
       {path: "portfolio", element: <Portfolio/>},
       {path: "contact", element: <Contact/>},

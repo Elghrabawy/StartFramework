@@ -3,17 +3,15 @@ import img1 from "../assets/images/avataaars.svg";
 import Header from "../Components/Header";
 
 export default function Home() {
-
   return (
     <div className="bg-first skip-nav m-0 pb-2">
       <div className="container text-center align-items-center justify-content-center my-5 py-5">
         <div className="w-25 mx-auto">
-            <img src={img1}/>
+          <img src={img1} />
         </div>
 
-        <Header title={"Start Framework"}/>
+        <Header title={"Start Framework"} color={"white"} />
         <p className=" fw-normal">Graphic Artist - Web Designer- Illustrator</p>
-
       </div>
     </div>
   );

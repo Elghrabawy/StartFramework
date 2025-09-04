@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./../components/Header";
 import PortfolioItem from "../components/PortfolioItem";
 import port1 from "../assets/images/port1.png";
 import port2 from "../assets/images/port2.png";
 import port3 from "../assets/images/port3.png";
+import setTitle from "../helpers/setTitle";
 
 export default function Portfolio() {
+  useEffect(() => {
+    setTitle("portfolio");
+  })
   const [OverlayImage, setOverlayImage] = React.useState(null);
 
   return (

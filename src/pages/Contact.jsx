@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./../components/Header";
+import setTitle from "../helpers/setTitle";
 
 export default function Contact() {
+  useEffect(() => {
+    setTitle("contact");
+  });
   return (
     <div className="skip-nav m-0 pb-2 vh-100">
       <div className="container text-center py-3 d-flex flex-column justify-content-center align-items-center">

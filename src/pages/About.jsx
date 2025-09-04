@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../Components/Header";
+import setTitle from "../helpers/setTitle";
 
 export default function About() {
+  useEffect(() => {
+    setTitle("about");
+  })
   return (
     <div className="bg-first skip-nav m-0 vh-100 d-flex align-items-center">
       <div className="container text-center align-items-center justify-content-center">

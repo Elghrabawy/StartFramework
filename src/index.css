@@ -8,6 +8,11 @@
   font-weight: 500;
 
   
+  --input-group-addon-color: black !important;
+  --input-border-color: black !important;
+  --input-group-addon-border-color: black !important;
+
+  
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -85,4 +90,17 @@ body {
 }
 .portfolio-item .overlay:hover {
   opacity: 0.9;
+}
+
+
+/* Contact */
+
+.contact-input input{
+  border: transparent;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.171) !important;
+  border-radius: 0px;
+}
+
+.contact-input input:focus{
+  box-shadow: none;
 }

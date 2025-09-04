@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Header from "../Components/Header";
+import Header from "../components/Header";
 import setTitle from "../helpers/setTitle";
 
 export default function About() {
